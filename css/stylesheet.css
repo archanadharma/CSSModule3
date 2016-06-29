@@ -7,6 +7,10 @@
 .nav.navbar-nav li {
 	font-family: 'El Messiri', sans-serif;
 }
+.navbar-toggler.collapsed:active {
+	background-color: grey;
+	opacity: 0.8;
+}
 /*Styling each menu item differently*/
 .nav.navbar-nav li:first-child {
 	background-color: #E1BEE7;
