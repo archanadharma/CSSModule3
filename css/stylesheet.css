@@ -1,11 +1,51 @@
+/* ----- START: Navigation  ----- */
+.navbar-brand {
+	font-family: 'Trirong', serif;
+	font-size: 150%;
+}
+.nav.navbar-nav li {
+	font-family: 'El Messiri', sans-serif;
+}
+/*Styling each menu item differently*/
 .nav.navbar-nav li:first-child {
-	background-color: #B5FFE9;
+	background-color: #E1BEE7;
 }
-
 .nav.navbar-nav li:nth-child(2) {
-	background-color: #CEABB1;
+	background-color: #BBDEFB;
+}
+.nav.navbar-nav li:nth-child(3) {
+	background-color: #80CBC4;
+}
+/* ------- END: Navigation -------- */
+
+/*Heading*/
+
+h1{
+	font-family: 'El Messiri', sans-serif;
 }
 
-.nav.navbar-nav li:nth-child(3) {
-	background-color: #C5D8E0;
+/* ----------- START: Main Content ------------ */
+
+h2{
+	font-family: 'El Messiri', sans-serif;
 }
+p{
+	font-family: helvetica;
+}
+section > div > div > div {
+	height: 1000px;
+	/*border: 1px solid black;*/ 
+	margin: 20px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#section-chicken div{
+	background-color: #E1BEE7;
+}
+#section-beef div{
+	background-color: #BBDEFB;
+}
+#section-sushi div{
+	background-color: #80CBC4;
+}
+
+/* ---------- END: Main Content ----------- */
