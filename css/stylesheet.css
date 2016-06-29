@@ -1,0 +1,11 @@
+.nav.navbar-nav li:first-child {
+	background-color: #B5FFE9;
+}
+
+.nav.navbar-nav li:nth-child(2) {
+	background-color: #CEABB1;
+}
+
+.nav.navbar-nav li:nth-child(3) {
+	background-color: #C5D8E0;
+}
